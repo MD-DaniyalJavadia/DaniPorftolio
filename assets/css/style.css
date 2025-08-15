@@ -431,6 +431,11 @@ a:hover{
         white-space: nowrap; /* Prevent buttons from wrapping text */
     }
 }
+@media (max-width: 600px) {
+  .btn-showcase:last-child {
+    margin-top: 8px; /* ya jitna space chahiye */
+  }
+}
 
 
 
