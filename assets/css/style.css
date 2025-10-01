@@ -987,3 +987,23 @@ a:hover{
     color: var(--primary-color);
     transform: translate(0, -0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
 }
+.project-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card .card-body {
+    flex-grow: 1;
+}
+
+.project-card .banner-container {
+    height: 200px; /* or use auto if you want dynamic size */
+    overflow: hidden;
+}
+
+.project-card .banner-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
