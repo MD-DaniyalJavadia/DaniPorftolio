@@ -552,6 +552,14 @@ a:hover{
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
+.mern-card {
+    padding: 20px 10px !important;
+    height: 150px !important; 
+}
+
+.mern-img {
+    width: 90px !important;
+}
 
 #skills{
     padding: 100px 0px;
