@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Daniyal Javadia - Web Developer</title>
+
+    <meta name="title" content="Daniyal Javadia - Frontend Web Developer">
+    <meta name="description"
+        content="Daniyal Javadia - Passionate Frontend Web Developer creating beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
+    <meta name="keywords" content="Daniyal Javadia, Web Developer, Frontend Developer, Portfolio, Blog, Tech Insights">
+    <meta name="author" content="Daniyal Javadia">
+
+    <link rel="canonical" href="https://daniyal-works-portfolio.vercel.app/" />
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Open Graph Meta Tags / Facebook -->
+    <meta property="og:title" content="Daniyal Javadia - Frontend Web Developer">
+    <meta property="og:description"
+        content="Passionate about crafting beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
+    <meta property="og:url" content="/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:title" content="Daniyal Javadia - Frontend Web Developer">
+    <meta name="twitter:description"
+        content="Passionate about crafting beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
+
+
+    <!-- Google Fonts: Rubik -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik&display=swap">
+
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Preload Important resources -->
+    <link rel="preload" href="assets/css/aos.css" as="style">
+    <link rel="preload" href="assets/css/owl.carousel.min.css" as="style">
+    <link rel="preload" href="assets/css/bootstrap.min.css" as="style" />
+    <link rel="preload" href="assets/css/bootstrap-icons.min.css" as="style" />
+    <link rel="preload" href="assets/css/style.css" as="style" />
+
+    <!-- MS-Clarity Analytics -->
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "phycesbqlg");
+    </script>
+    <style>
+        .video-card {
+            position: relative;
+            height: 220px;
+            overflow: hidden;
+        }
+
+        .video-card img,
+        .video-card iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .video-card iframe {
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .video-card img {
+            transition: opacity 0.3s ease;
+        }
+
+        .video-card:hover iframe {
+            opacity: 1;
+        }
+
+        .video-card:hover img {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body data-bs-theme="dark" data-bs-spy="scroll" data-bs-target="#navbar">
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <nav id="navbar" class="navbar navbar-expand-md">
+            <div class="container">
+                <a href="/" class="navbar-brand logo">
+                    <span></span>
+                    <span class="logo-name">Daniyal Javadia</span>
+                    <span>/></span>
+                </a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarMenu">
+                    <div class="offcanvas-header">
+                        <a href="/" class="offcanvas-title navbar-brand logo" id="offcanvasNavbarMenu"
+                            data-aos="fade-down" data-aos-delay="600">
+                            <span>
+                                << /span>
+                                    <span class="logo-name">Daniyal Javadia</span>
+                                    <span>/></span>
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-dismiss="offcanvas"
+                            aria-label="Close Navigation Menu"><i class="bi bi-x toggle-icon"></i></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav nav-underline justify-content-end flex-grow-1">
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="500" data-bs-dismiss="offcanvas">
+                                <a href="#hero" class="nav-link active" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="600" data-bs-dismiss="offcanvas">
+                                <a href="#about" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="700" data-bs-dismiss="offcanvas">
+                                <a href="#skills" class="nav-link">Skills</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="800" data-bs-dismiss="offcanvas">
+                                <a href="#projects" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="1000" data-bs-dismiss="offcanvas">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn border-0" id="switchTheme" data-aos="fade-down" data-aos-delay="600"><i
+                        class="bi bi-brightness-high-fill"></i></button>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                    aria-label="Toggle Navigation Menu" data-aos="fade-down" data-aos-delay="600"><i
+                        class="bi bi-list toggle-icon"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="container">
+            <div class="row about-content">
+
+                <div class="col-lg-7 order-lg-1 hero-content">
+                    <span class="h3" data-aos="fade-up" data-aos-delay="0">Hi, I'm</span>
+                    <h1 class="name" data-aos="fade-up" data-aos-delay="200">
+                        <span>Daniyal Javadia</span>
+                    </h1>
+
+                    <div class="mt-3 mb-3" data-aos="fade-up" data-aos-delay="400">
+                        <button type="button" class="btn btn-sm me-2 btn-showcase">
+                            <i class="bi bi-stars"></i> Frontend Developer
+                        </button>
+                        <button type="button" class="btn btn-sm me-2 btn-showcase">
+                            <i class="bi bi-server"></i> Backend Developer
+                        </button>
+                        <button type="button" class="btn btn-sm btn-showcase">
+                            <i class="bi bi-wordpress"></i> WordPress Developer
+                        </button>
+                    </div>
+
+
+
+                    <!-- Added longer intro -->
+                    <p class="mb-3" data-aos="fade-up" data-aos-delay="650">
+                        I'm a passionate Full Stack Web Developer specializing in creating responsive,
+                        user-friendly websites and mobile apps. Skilled in modern web technologies,
+                        I blend creativity and functionality to bring ideas to life.
+                    </p>
+
+                    <div class="social-icons pb-2 pt-2 mb-2">
+                        <a href="https://github.com/MD-DaniyalJavadia/" target="_blank" class="github"
+                            data-aos="fade-up" data-aos-delay="620">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/daniyal-javadia-a8b941379/" target="_blank"
+                            class="linkedin" data-aos="fade-up" data-aos-delay="690">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                        <a class="github" data-aos="fade-up" data-aos-delay="620" target="_blank"
+                            href="https://linktr.ee/daniyaljavadia?utm_source=linktree_profile_share&ltsid=f7eb9fa4-5502-438c-a117-a63834570fb9">
+                            <i class="fa-brands fa-linktree"></i>
+                        </a>
+                    </div>
+
+                    <div class="d-flex call-to-action">
+                        <a href="#contact" data-aos="fade-up" data-aos-delay="700" class="btn me-4 primary-bg-btn">
+                            <i class="bi bi-envelope"></i> Contact Me
+                        </a>
+
+                        <a href="DaniyalJavadia.pdf" download data-aos="fade-up" data-aos-delay="900"
+                            class="btn btn-success">
+                            <i class="bi bi-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Things I Love -->
+    <section id="things-i-love">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">Interests</span></h6>
+            <h2 class="section-heading text-center">Things I Love</h2>
+            <div class="row justify-content-center pt-3 gy-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="card">
+                        <div class="circle-container">
+                            <div class="circle"><i class="bi bi-droplet-half"></i></div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">UI/UX Design</p>
+                            <p class="card-text">I love crafting visually appealing and intuitive designs using tools
+                                like Figma and Canva. From color schemes to typography, I enjoy blending creativity with
+                                functionality to enhance user experiences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="card">
+                        <div class="circle-container">
+                            <div class="circle"><i class="bi bi-code-slash"></i></div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Web & Mobile Development</p>
+                            <p class="card-text">Turning ideas into reality through coding is my passion. I enjoy
+                                building scalable web apps with React, PHP, and ASP.NET, as well as mobile apps with
+                                Dart and Flutter, focusing on clean and efficient solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="card">
+                        <div class="circle-container">
+                            <div class="circle"><i class="bi bi-cup-hot"></i></div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Learning & Innovation</p>
+                            <p class="card-text">I’m thrilled to explore new technologies like Angular, Firebase, and
+                                emerging tools. Continuous learning fuels my growth and helps me bring innovative ideas
+                                to my development and design projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+        <div class="container">
+            <h6 class="text-center">
+                <span class="btn btn-sm theme-button theme-text">But who am I?</span>
+            </h6>
+            <h2 class="section-heading text-center">About Me</h2>
+
+            <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="200">
+                <!-- Profile Image -->
+                <div class="col-lg-5 about-portrait mb-4 mb-lg-0">
+                    <img src="assets/images/DaniyalJavadia.JPG" class="img-fluid pic" alt="About Me Portrait">
+                </div>
+
+                <!-- Bio + Tabs -->
+                <div class="col-lg-7">
+                    <p class="bio">
+                        Hello! I'm Daniyal Javadia, a passionate Full Stack Web Developer with expertise in HTML, CSS,
+                        JavaScript, jQuery, React (with Vite), PHP, Laravel, C#, ASP.NET Core MVC, Node.js, MySQL, SQL,
+                        MongoDB, Bootstrap, Git, and UI/UX design. I also have experience in mobile app development
+                        using Dart and Flutter, along with basic knowledge of Angular, Firebase, and Crystal Reports.
+                        <br><br>
+                        I specialize in building intuitive, scalable web and mobile applications that deliver
+                        exceptional user experiences. With a strong foundation in UI/UX design and proficiency in tools
+                        like Figma and Canva, I blend creativity with functionality to craft solutions that not only
+                        meet but exceed client expectations.
+                        <br><br>
+                        Beyond development, I bring office automation expertise to enhance productivity and streamline
+                        workflows. Whether you need a full stack developer to bring a complex idea to life, or a
+                        front-end/mobility expert to refine your product, I’m here to help turn your vision into
+                        reality.
+                        <br><br>
+                        If you’d like to collaborate on creating innovative, impactful digital experiences, let’s
+                        connect and make it happen.
+                    </p>
+
+                    <!-- Tabs Navigation -->
+                    <ul class="nav nav-tabs mt-4" id="aboutTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="tab-skills-btn" data-bs-toggle="tab"
+                                data-bs-target="#tab-skills" type="button" role="tab" aria-controls="tab-skills"
+                                aria-selected="true">Skills</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="tab-education-btn" data-bs-toggle="tab"
+                                data-bs-target="#tab-education" type="button" role="tab" aria-controls="tab-education"
+                                aria-selected="false">Education</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="tab-experience-btn" data-bs-toggle="tab"
+                                data-bs-target="#tab-experience" type="button" role="tab" aria-controls="tab-experience"
+                                aria-selected="false">Experience</button>
+                        </li>
+                    </ul>
+
+                    <!-- Tabs Content -->
+                    <div class="tab-content mt-3" id="aboutTabsContent">
+                        <!-- Skills Tab -->
+                        <div class="tab-pane fade show active" id="tab-skills" role="tabpanel"
+                            aria-labelledby="tab-skills-btn">
+                            <h4>Skills</h4>
+                            <ul>
+                                <li><strong>Frontend Development:</strong> Crafting responsive and interactive web
+                                    interfaces that elevate user experiences.</li>
+                                <li><strong>Backend Development:</strong> Building robust server-side solutions to
+                                    ensure seamless functionality and scalability.</li>
+                                <li><strong>Technologies:</strong> HTML, CSS, JavaScript, jQuery, React (with Vite),
+                                    PHP, Laravel, C#, ASP.NET Core MVC, Node.js, MySQL, SQL, MongoDB, Bootstrap, Git,
+                                    Dart, Flutter.</li>
+                                <li><strong>UI/UX Design:</strong> Proficient in Figma and Canva, blending creativity
+                                    with functionality.</li>
+                                <li><strong>Other:</strong> Basic knowledge of Angular, Firebase, Crystal Reports, and
+                                    office automation expertise.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Education Tab -->
+                        <div class="tab-pane fade" id="tab-education" role="tabpanel"
+                            aria-labelledby="tab-education-btn">
+                            <h4>Education</h4>
+                            <ul>
+                                <li>
+                                    <strong>2023-2026</strong><br>
+                                    ADSE (Software Engineering) Diploma<br>
+                                    Aptech Computer Education, Garden, Karachi (In-Progress)
+                                </li>
+                                <li>
+                                    <strong>2023</strong><br>
+                                    Intermediate in Commerce<br>
+                                    Government College of Commerce & Economics, Karachi
+                                </li>
+                                <li>
+                                    <strong>2021</strong><br>
+                                    Matriculation in Computer Science<br>
+                                    The Smart School, Garden West Campus, Karachi
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Experience Tab -->
+                        <div class="tab-pane fade" id="tab-experience" role="tabpanel"
+                            aria-labelledby="tab-experience-btn">
+                            <h4>Experience</h4>
+                            <ul>
+                                <li>
+                                    <strong>.NET Core Developer</strong><br>
+                                    TechnoCom Development<br>
+                                    <em>October 2024 - Present</em><br>
+                                    Currently working as a .NET Developer, contributing to the enhancement and
+                                    maintenance of cloud-based software applications. Collaborating closely with senior
+                                    developers to implement updates and optimize functionality and performance. Working
+                                    with emerging technologies to ensure applications remain innovative and up-to-date.
+                                    Actively involved in new projects, helping bring fresh ideas to life while ensuring
+                                    high standards of quality and reliability.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What do I know?</span></h6>
+            <h2 class="section-heading text-center">Skills</h2>
+            <p class="text-center muted-text mt-3 mb-4">Here are some of the technologies that are part of my current
+                stack:</p>
+
+            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 skills-container"
+                data-aos="fade-up" data-aos-delay="200">
+
+                <!-- HTML -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                            alt="HTML">
+                        <p class="skill-name">HTML</p>
+                    </div>
+                </div>
+
+                <!-- CSS -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                        <p class="skill-name">CSS</p>
+                    </div>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                            alt="JavaScript">
+                        <p class="skill-name">JavaScript</p>
+                    </div>
+                </div>
+
+                <!-- PHP -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                        <p class="skill-name">PHP</p>
+                    </div>
+                </div>
+
+                <!-- Laravel -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/laravel-logo.svg" alt="Laravel">
+                        <p class="skill-name">Laravel</p>
+                    </div>
+                </div>
+
+                <!-- C# -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                            alt="C#">
+                        <p class="skill-name">C#</p>
+                    </div>
+                </div>
+
+
+                <!-- Bootstrap -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                            alt="Bootstrap">
+                        <p class="skill-name">Bootstrap</p>
+                    </div>
+                </div>
+                <!-- ASP.NET Core MVC -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+                            alt="ASP.NET Core MVC">
+                        <p class="skill-name text-center">ASP.NET Core MVC</p>
+                    </div>
+                </div>
+
+
+                <!-- MySQL -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                            alt="MySQL">
+                        <p class="skill-name">MySQL</p>
+                    </div>
+                </div>
+
+                <!-- SQL Server -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image" src="assets/images/skills/microsoft-sql-server-logo.svg"
+                            alt="SQL Server">
+                        <p class="skill-name">SQL Server</p>
+                    </div>
+                </div>
+                <!-- MERN Stack -->
+                <div class="col">
+                    <div class="skill mern-card">
+                        <img class="skill-image mern-img"
+                            src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs" alt="MERN Stack">
+                        <p class="skill-name text-center">MERN Stack</p>
+                    </div>
+                </div>
+
+
+                <!-- MongoDB -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                            alt="MongoDB">
+                        <p class="skill-name">MongoDB</p>
+                    </div>
+                </div>
+
+                <!-- Dart -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart">
+                        <p class="skill-name">Dart</p>
+                    </div>
+                </div>
+
+                <!-- Flutter -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+                            alt="Flutter">
+                        <p class="skill-name">Flutter</p>
+                    </div>
+                </div>
+
+                <!-- Firebase -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                            alt="Firebase">
+                        <p class="skill-name">Firebase</p>
+                    </div>
+                </div>
+
+                <!-- Node.js -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                            alt="Node.js">
+                        <p class="skill-name">Node.js</p>
+                    </div>
+                </div>
+
+                <!-- React -->
+                <div class="col">
+                    <div class="skill">
+                        <img class="skill-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                            alt="React">
+                        <p class="skill-name">React</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section id="tools">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What I use?</span></h6>
+            <h2 class="section-heading text-center">Tools</h2>
+            <p class="text-center muted-text mt-3 mb-4">Tech stack known? Here are tools that I run:</p>
+
+            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 tools-container"
+                data-aos="fade-down" data-aos-delay="200">
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/tools/vscode.svg" alt="VSCode">
+                        <p class="tool-name">VS Code</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/tools/github.svg" alt="GitHub">
+                        <p class="tool-name">GitHub</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/tools/git.svg" alt="Git">
+                        <p class="tool-name">Git</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="https://cdn-icons-png.flaticon.com/512/906/906324.png"
+                            alt="Visual Studio 2022">
+                        <p class="tool-name text-center">Visual Studio 2022</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="https://cdn.worldvectorlogo.com/logos/postman.svg" alt="Postman">
+                        <p class="tool-name">Postman</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/skills/microsoft-sql-server-logo.svg"
+                            alt="SQL Server">
+                        <p class="tool-name">SQL Server</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                            alt="MySQL">
+                        <p class="tool-name">MySQL</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg"
+                            alt="RStudio">
+                        <p class="tool-name">RStudio</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/Github-desktop-logo-symbol.svg.png"
+                            alt="GitHub Desktop">
+                        <p class="tool-name text-center">GitHub Desktop</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/tools/Figma.svg" alt="Figma">
+                        <p class="tool-name">Figma</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="assets/images/skills/crystalreport.PNG" alt="Crystal Reports">
+                        <p class="tool-name text-center">Crystal Reports</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Timelines 
+    <section id="timelines">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What am Doing?</span></h6>
+            <h2 class="section-heading text-center">Timelines</h2>
+            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 skills-container">
+                <div class="col">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+<section id="projects">
+    <div class="container">
+        <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What I've done?</span></h6>
+        <h2 class="section-heading text-center">Projects</h2>
+        <div class="row justify-content-center mt-4 gy-4" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- FreshShop -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://github.com/MD-Aptech/FreshShoop.git" class="card-title title"
+                                    target="_blank">FreshShop</a>
+                                <p class="stacks m-0">ASP.NET Core MVC | SQL Server</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://github.com/MD-Aptech/FreshShoop.git"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i
+                                        class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">An e-commerce platform with product browsing, cart, secure checkout,
+                            search, authentication, and admin panel for inventory management.</p>
+                    </div>
+                    <div class="banner-container">
+                        <div class="overlay">
+                            <a href="https://github.com/MD-Aptech/FreshShoop.git" class="btn" target="_blank"><i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></a>
+                        </div>
+                        <img src="assets/images/projects/image2.png" class="card-img-top banner"
+                            alt="FreshShop Banner">
+                    </div>
+                </div>
+            </div>
+
+            <!-- E-Vaccination Booking System -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://github.com/MD-DaniyalJavadia/E-VaccineMangment"
+                                    class="card-title title" target="_blank">E-Vaccination Booking</a>
+                                <p class="stacks m-0">Laravel | MySQL</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://github.com/MD-DaniyalJavadia/E-VaccineMangment"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i
+                                        class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">Online vaccination slot booking system with user registration, login,
+                            and booking management features built with Laravel.</p>
+                    </div>
+                    <div class="banner-container">
+                        <div class="overlay">
+                            <a href="https://github.com/MD-DaniyalJavadia/E-VaccineMangment" class="btn"
+                                target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                        </div>
+                        <img src="assets/images/projects/E-VaccineMangment.png" class="card-img-top banner"
+                            alt="E-Vaccination Banner">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Admin Dashboard -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://github.com/MD-DaniyalJavadia/Admin-Dashboard-Php"
+                                    class="card-title title" target="_blank">Admin Dashboard</a>
+                                <p class="stacks m-0">PHP | MySQL</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://github.com/MD-DaniyalJavadia/Admin-Dashboard-Php"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i
+                                        class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">Dashboard to manage users, reports, and activities with full CRUD
+                            operations and secure backend using PHP & MySQL.</p>
+                    </div>
+                    <div class="banner-container">
+                        <div class="overlay">
+                            <a href="https://github.com/MD-DaniyalJavadia/Admin-Dashboard-Php" class="btn"
+                                target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                        </div>
+                        <img src="assets/images/projects/admindashboard.png" class="card-img-top banner"
+                            alt="Admin Dashboard Banner">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Student Portal Clone -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://github.com/MD-Aptech/StudentPortalCloneAptech"
+                                    class="card-title title" target="_blank">
+                                    Student Portal
+                                </a>
+                                <p class="stacks m-0">Laravel | MySQL</p>
+                            </div>
+                            <div class="col-3">
+                                <a href="https://github.com/MD-Aptech/StudentPortalCloneAptech"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">
+                                    Visit <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">
+                            A Laravel-based Student Portal for managing attendance, marks,
+                            profiles, and complaints with real-time updates.
+                        </p>
+                    </div>
+                    <div class="banner-container video-card">
+                        <img src="assets/images/projects/aptechclone.png" class="banner" alt="Student Portal">
+                        <iframe
+                            src="https://player.vimeo.com/video/1146309292?autoplay=1&muted=1&loop=1&background=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                            frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            title="Student Portal">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Netflix Clone -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://netflix-clone-theta-eight-90.vercel.app/" class="card-title title"
+                                    target="_blank">Netflix Clone</a>
+                                <p class="stacks m-0">HTML | CSS</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://netflix-clone-theta-eight-90.vercel.app/"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i
+                                        class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">A Netflix-inspired responsive layout with header, movie sections, and
+                            footer — fully customizable for any project.</p>
+                    </div>
+                    <div class="banner-container">
+                        <div class="overlay">
+                            <a href="https://netflix-clone-theta-eight-90.vercel.app/" class="btn"
+                                target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                        </div>
+                        <img src="assets/images/projects/netflixclone.PNG" class="card-img-top banner"
+                            alt="Netflix Clone Banner">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://daniyal-portfolio-three.vercel.app/" class="card-title title"
+                                    target="_blank">Portfolio</a>
+                                <p class="stacks m-0">HTML | CSS | JavaScript</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://daniyal-portfolio-three.vercel.app/"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i
+                                        class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">A responsive portfolio showcasing skills and projects with clean,
+                            interactive UI design.</p>
+                    </div>
+                    <div class="banner-container">
+                        <div class="overlay">
+                            <a href="https://daniyal-portfolio-three.vercel.app/" class="btn" target="_blank"><i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></a>
+                        </div>
+                        <img src="assets/images/projects/portfolio.PNG" class="card-img-top banner"
+                            alt="Portfolio Banner">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nail Art -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://nail-art-e-project.vercel.app/" class="card-title title"
+                                    target="_blank">
+                                    Nail Art
+                                </a>
+                                <p class="stacks m-0">HTML | CSS</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://nail-art-e-project.vercel.app/"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">
+                                    Visit <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">
+                            A responsive gallery-style website displaying nail art designs, optimized for all
+                            devices.
+                        </p>
+                    </div>
+                    <div class="banner-container video-card">
+                        <img src="assets/images/projects/NailArtEPorject.png" class="banner" alt="Nail Art">
+                        <iframe
+                            src="https://player.vimeo.com/video/1146310054?autoplay=1&muted=1&loop=1&background=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                            frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            title="Nail-Art">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simple Counter -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://counter-ebon-psi.vercel.app/" class="card-title title"
+                                    target="_blank">
+                                    Simple Counter
+                                </a>
+                                <p class="stacks m-0">Angular</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://counter-ebon-psi.vercel.app/"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">
+                                    Visit <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">
+                            An Angular counter app with increment, decrement, and reset features using two-way data
+                            binding.
+                        </p>
+                    </div>
+                    <div class="banner-container video-card">
+                        <img src="assets/images/projects/image.png" class="banner" alt="Simple Counter">
+                        <iframe
+                            src="https://player.vimeo.com/video/1146310123?autoplay=1&muted=1&loop=1&background=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                            frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            title="Simple Counter">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Online Mobile Recharge -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="/" class="card-title title" target="_blank">Online Mobile Recharge</a>
+                                <p class="stacks m-0">HTML | CSS | JavaScript | .NET Core MVC | SQL</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="/" class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i
+                                        class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">Mobile recharge platform with plan browsing and secure transactions,
+                            including an admin dashboard for plan and transaction management.</p>
+                    </div>
+                    <div class="banner-container">
+                        <div class="overlay">
+                            <a href="/" class="btn" target="_blank"><i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></a>
+                        </div>
+                        <img src="assets/images/projects/onlinemobilerechaege.PNG" class="card-img-top banner"
+                            alt="Online Mobile Recharge Banner">
+                    </div>
+                </div>
+            </div>
+
+            <!-- API with ASP.NET Core MVC and Swagger -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://github.com/MD-DaniyalJavadia/WebApi" class="card-title title"
+                                    target="_blank">
+                                    API with Swagger
+                                </a>
+                                <p class="stacks m-0">ASP.NET Core MVC | SQL Server | Swagger</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://github.com/MD-DaniyalJavadia/WebApi"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">
+                                    Visit <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">
+                            RESTful API with GET & POST operations connected to SQL Server, documented and tested
+                            using Swagger.
+                        </p>
+                    </div>
+                    <div class="banner-container video-card">
+                        <img src="assets/images/projects/Capture.PNG" class="banner" alt="API with Swagger">
+                        <iframe
+                            src="https://player.vimeo.com/video/1146309894?autoplay=1&muted=1&loop=1&background=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                            frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            title="API with Swagger">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Student Management API -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://github.com/MD-DaniyalJavadia/Mongodb_Connect_Nodejs"
+                                    class="card-title title" target="_blank">
+                                    Student Management API
+                                </a>
+                                <p class="stacks m-0">Node.js | Express.js | MongoDB</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://github.com/MD-DaniyalJavadia/Mongodb_Connect_Nodejs"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">
+                                    Visit <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">
+                            Backend API for managing student records with full CRUD functionality, tested using
+                            Postman.
+                        </p>
+                    </div>
+                    <div class="banner-container video-card">
+                        <img src="assets/images/projects/nodejs.png" class="banner" alt="Student Management API">
+                        <iframe
+                            src="https://player.vimeo.com/video/1146309810?autoplay=1&muted=1&loop=1&background=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                            frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            title="Student Management API">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Green Living Hub -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://github.com/MD-DaniyalJavadia/GreenLivingHubApp"
+                                    class="card-title title" target="_blank">Green Living Hub</a>
+                                <p class="stacks m-0">Flutter | Firebase | Dart</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://github.com/MD-DaniyalJavadia/GreenLivingHubApp"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i
+                                        class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">Sustainable lifestyle mobile app with carbon footprint calculator,
+                            green events, community features, and Firebase authentication.</p>
+                    </div>
+                    <div class="banner-container">
+                        <div class="overlay">
+                            <a href="https://github.com/MD-DaniyalJavadia/GreenLivingHubApp" class="btn"
+                                target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                        </div>
+                        <img src="assets/images/projects/flutter.png" class="card-img-top banner"
+                            alt="Green Living Hub Banner">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guarder -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="https://guarder-ebon.vercel.app/" class="card-title title"
+                                    target="_blank">Gurder Guard Service</a>
+                                <p class="stacks m-0">HTML | CSS | Bootstrap 5</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://guarder-ebon.vercel.app/"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i
+                                        class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">A static website for a security service provider showcasing various
+                            services, contact form, and company information, developed using HTML, CSS, and
+                            Bootstrap 5.</p>
+                    </div>
+                    <div class="banner-container">
+                        <div class="overlay">
+                            <a href="https://guarder-ebon.vercel.app/" class="btn" target="_blank"><i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></a>
+                        </div>
+                        <img src="assets/images/Guarder.png" class="card-img-top banner"
+                            alt="Gurder Guard Service Banner">
+                    </div>
+                </div>
+            </div>
+
+            <!-- React Vite Movie API -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="http://movie-api-five-beige.vercel.app/" class="card-title title"
+                                    target="_blank">
+                                    Movie API React App
+                                </a>
+                                <p class="stacks m-0">React | Vite | Movie API</p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="http://movie-api-five-beige.vercel.app/"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">
+                                    Visit <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">
+                            A React app built with Vite that fetches movie listings from a Movie API.
+                            Features include a search function, dark mode, and light mode toggle for a better user
+                            experience.
+                        </p>
+                    </div>
+                    <div class="banner-container video-card">
+                        <img src="assets/images/projects/MovieApiReact.png" class="banner"
+                            alt="Movie API React App">
+                        <iframe
+                            src="https://player.vimeo.com/video/1146310000?autoplay=1&muted=1&loop=1&background=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                            frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            title="Movie Api">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- API Token Generation and Authentication -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="#" class="card-title title" target="_blank">
+                                    API Token Generation and Authentication
+                                </a>
+                                <p class="stacks m-0">
+                                    ASP.NET Core MVC | SQL Server | API Security
+                                </p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="#" class="btn btn-sm primary-bg-btn rounded-5" target="_blank">
+                                    Visit <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">
+                            A secure API built using ASP.NET Core MVC for token-based authentication.
+                            The system generates time-sensitive tokens, specific to selected modules,
+                            and stores them in a SQL Server database for better security.
+                        </p>
+                    </div>
+                    <div class="banner-container video-card">
+                        <img src="assets/images/projects/Aspdotnetcoremvcapi.png" class="banner"
+                            alt="API Token Generation and Authentication">
+                        <iframe
+                            src="https://player.vimeo.com/video/1146309469?autoplay=1&muted=1&loop=1&background=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                            frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            title="API Token Generation">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="#" class="card-title title" target="_blank">Portfolio</a>
+                                <p class="stacks m-0">
+                                    HTML | CSS | JavaScript
+                                </p>
+                            </div>
+                            <div class="col-3 align-middle">
+                                <a href="https://dani-works-portfolio.vercel.app/"
+                                    class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i
+                                        class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">
+                            A responsive portfolio showcasing skills and projects with clean, interactive UI design.
+                        </p>
+                    </div>
+                    <div class="banner-container">
+                        <div class="overlay">
+                            <a href="https://dani-works-portfolio.vercel.app/" class="btn" target="_blank"><i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></a>
+                        </div>
+                        <img src="assets/images/projects/daniportfolio.png" class="card-img-top banner"
+                            alt="Portfolio Banner">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="col-7 p-0">
+                                <a href="#" class="card-title title" target="_blank">MERN Fitness Tracker</a>
+                                <p class="stacks m-0">MongoDB | Express | React | Node.js</p>
+                            </div>
+                            <div class="col-3 align-middle text-end">
+                                <span class="badge bg-warning text-dark">
+                                    In Progress
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <p class="description">A fitness tracking web application built with the MERN stack. Track
+                            your cardio, monitor workouts, and manage your fitness goals efficiently.</p>
+                    </div>
+                    <div class="banner-container">
+                        <div class="overlay">
+                            <a href="#" class="btn" target="_blank"><i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></a>
+                        </div>
+                        <img src="assets/images/projects/mernfitnesstracker.png" class="card-img-top banner"
+                            alt="MERN Fitness Tracker Banner">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What's next!</span></h6>
+            <h2 class="section-heading text-center">Get In Touch</h2>
+            <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="500">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form action="/" method="POST">
+                            <div class="row g-2">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name"
+                                            placeholder="Name *" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" name="email"
+                                            placeholder="Email *" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="subject" name="subject"
+                                            placeholder="Subject *" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea style="resize: none;" class="form-control" id="message" name="message"
+                                            rows="5" placeholder="Your message *" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn primary-bg-btn mt-2">Send Message <i
+                                            class="bi bi-arrow-up-right"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info mt-5 text-center">
+                        <p><strong>Primary Phone:</strong>
+                            <a href="tel:+92 332 3782768">+92 332 3782768</a> |
+                            <a href="https://wa.me/923323782768" target="_blank" rel="noopener noreferrer">
+                                WhatsApp Chat
+                            </a>
+                        </p>
+                        <p><strong>Alternate Phone:</strong> <a href="tel:+92 320 2101259">+92 320 2101259</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:abc@gmail.com">daniyaljavadiaworks@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p class="text-center copyright-text">
+                Copyright © Daniyal Javadia. All Rights Reserved 2025
+
+            </p>
+        </div>
+    </footer>
+
+    <button class="btn" id="backToTopButton" onclick="scrollToTop()" style="display: none;">
+        <span aria-label="Back to top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
+            </svg>
+        </span>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="assets/js/aos.js" defer></script>
+    <script src="assets/js/jquery-3.7.1.min.js" defer></script>
+    <script src="assets/js/owl.carousel.min.js" defer></script>
+    <script src="assets/js/bootstrap.min.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+
+</body>
+
+</html>
