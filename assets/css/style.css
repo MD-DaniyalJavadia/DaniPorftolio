@@ -1015,3 +1015,46 @@ a:hover{
     width: 100%;
     object-fit: cover;
 }
+
+.certificate-card {
+    background-color: #121212;
+    border-radius: 12px;
+    overflow: hidden;
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.certificate-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.certificate-img {
+    max-height: 90px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #cccccc;
+    line-height: 1.4;
+}
+
+.clickable-card {
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.clickable-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
