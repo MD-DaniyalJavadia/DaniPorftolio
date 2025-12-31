@@ -1080,3 +1080,8 @@ a:hover{
 #projectTiltCard a {
   transform: translateZ(25px);
 }
+@media (max-width: 576px) {
+    .section-title-img {
+        display: none;
+    }
+}
