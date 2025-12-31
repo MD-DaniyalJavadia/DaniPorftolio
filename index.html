@@ -1592,9 +1592,8 @@
     <!-- Footer -->
     <footer id="footer">
         <div class="container">
-            <p class="text-center copyright-text">
-                Copyright © Daniyal Javadia. All Rights Reserved 2026
-
+           <p class="text-center copyright-text">
+                Copyright © Daniyal Javadia. All Rights Reserved <span id="year"></span>
             </p>
         </div>
     </footer>
@@ -1616,6 +1615,8 @@
     <script src="assets/js/bootstrap.min.js" defer></script>
     <script src="assets/js/script.js" defer></script>
     <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+
         const card = document.getElementById("projectTiltCard");
 
         card.addEventListener("mousemove", (e) => {
